@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">RLine</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="login_screen">Логин</string>
+    <string name="main_screen">Главная</string>
+    <string name="tariffs">Тарифы</string>
+    <string name="promotions">Акции</string>
+    <string name="iptv">IPTV</string>
+    <string name="telephony">Телефония</string>
+    <string name="speed">Скорость</string>
+    <string name="support">Поддержка</string>
+    <string name="share">Поделиться</string>
+    <string name="contacts">Контакты</string>
+
+    <string name="exit">Выход</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

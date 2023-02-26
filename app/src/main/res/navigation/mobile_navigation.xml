@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.antares.rline.presentation.MainFragment"
+        android:label="@string/main_screen"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/nav_tariffs"
+        android:name="com.antares.rline.presentation.TariffsFragment"
+        android:label="@string/tariffs"
+        tools:layout="@layout/fragment_tariffs" />
+
+    <fragment
+        android:id="@+id/nav_promotions"
+        android:name="com.antares.rline.presentation.PromotionsFragment"
+        android:label="@string/promotions"
+        tools:layout="@layout/fragment_promotions" />
+
+    <fragment
+        android:id="@+id/nav_iptv"
+        android:name="com.antares.rline.presentation.IPTVFragment"
+        android:label="@string/iptv"
+        tools:layout="@layout/fragment_iptv" />
+
+    <fragment
+        android:id="@+id/nav_telephony"
+        android:name="com.antares.rline.presentation.TelephonyFragment"
+        android:label="@string/telephony"
+        tools:layout="@layout/fragment_telephony" />
+
+    <fragment
+        android:id="@+id/nav_speed"
+        android:name="com.antares.rline.presentation.SpeedFragment"
+        android:label="@string/speed"
+        tools:layout="@layout/fragment_speed" />
+
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.antares.rline.presentation.SupportFragment"
+        android:label="@string/support"
+        tools:layout="@layout/fragment_support" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.antares.rline.presentation.ShareFragment"
+        android:label="@string/share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.antares.rline.presentation.ContactsFragment"
+        android:label="@string/contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+</navigation>
